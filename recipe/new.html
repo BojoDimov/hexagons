@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="./new.css"/>
+</head>
+<body>
+  <h1 class="title">Welcome, please submit your recipe</h1>
+  <div class="content">
+    <form id="new-recipe-form" action="http://localhost:8080/recipe/new" method="post">
+      <label for="name">Recipe name</label>
+      <input id="name" name="name" placeholder="Enter recipe name"/>
+  
+      <label for="ingredients">Ingredients</label>
+      <textarea id="ingredients" name="ingredients" placeholder="Enter ingredients"></textarea>
+  
+      <label for="instructions">Instructions</label>
+      <textarea id="instructions" name="instructions" placeholder="Enter recipe instructions"></textarea>
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
+</html>

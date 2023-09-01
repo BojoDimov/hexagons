@@ -137,10 +137,10 @@ function TopRightQuarter(R) {
 function BottomRightQuarter(R) {
   const r = cos30 * R;
 
-  return [
+  return [adsadsad
     [0, -r], // top-left
     [R / 2, -r],  // top-right
-    [R, 0],       // right
+    [R, 0],       // rightdasd
     [R / 2, 0],   // bottom-right
     [0, 0],       // bottom-left
     [0, 0]       // left
